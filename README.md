@@ -257,45 +257,7 @@ Referencie:
 
 Edite o Card e substitua todo o JSON pelo seguinte:
 
-```json
-{
-  "type": "AdaptiveCard",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "backgroundImage": {
-    "url": "https://adaptivecards.io/content/backgroundImage.png",
-    "verticalAlignment": "Center"
-  },
-  "body": [
-    {
-      "type": "TextBlock",
-      "text": "Device selection",
-      "weight": "Bolder",
-      "size": "Large",
-      "wrap": true
-    },
-    {
-      "type": "Input.ChoiceSet",
-      "id": "deviceSelectionId",
-      "style": "expanded",
-      "choices": "ForAll(Global.VarDispositivos.value,{title:If(IsBlank('Title'),\"NA\",'Title'),value:If(IsBlank(ID),\"NA\",ID)})"
-    },
-    {
-      "type": "Input.Text",
-      "id": "commentsId",
-      "placeholder": "Comentários adicionais",
-      "isMultiline": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Enviar Solicitação",
-      "id": "deviceSubmittedId"
-    }
-  ]
-}
-```
+<a link="https://github.com/felipemacielmct/Lab-Construindo-Inteligencia-Dinamica/blob/main/adaptivecard.json">Adaptive Card Simple lab</a>
 
 <img width="1280" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4f03219-634f-4dae-a84c-87b9f0da3499" />
 
