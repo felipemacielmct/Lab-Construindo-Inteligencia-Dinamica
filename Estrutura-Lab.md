@@ -29,7 +29,7 @@ No ambiente do **Copilot Studio**, crie uma nova Solution:
 | **Publisher**    | CDS Default Publisher (Cr894ce)   |
 | **Description**  | Copilot Studio Learning Champions |
 
-> 💡 As Solutions funcionam como pacotes para gerenciamento de ciclo de vida (ALM) dos seus agentes e componentes. [\[Copilot St...ons \[ITAU\] \| OneNote\]](https://microsoft-my.sharepoint-df.com/personal/felipemaciel_microsoft_com/_layouts/15/Doc.aspx?action=edit&mobileredirect=true&wdorigin=Sharepoint&DefaultItemOpen=1&sourcedoc={c0186268-b588-4c1a-a45b-f9cd2380d8fd}&wd=target(/Itau.one/)&wdpartid={7c85da56-9b09-4f4a-8149-1689e87a8858}{1}&wdsectionfileid={68fe3b18-c879-400f-8e7e-3b15377f3eaa}&EntityRepresentationId=596e110d-12e8-48bb-a244-fd35e2055e94)
+> 💡 As Solutions funcionam como pacotes para gerenciamento de ciclo de vida (ALM) dos seus agentes e componentes.
 
 ***
 
@@ -38,6 +38,9 @@ No ambiente do **Copilot Studio**, crie uma nova Solution:
 Crie um novo agente utilizando:
 
     Advanced Mode
+
+<img width="354" height="152" alt="image" src="https://github.com/user-attachments/assets/2242c1df-5562-4e18-8cd6-e11051acfb25" />
+
 
 | Propriedade      | Valor                                                              |
 | ---------------- | ------------------------------------------------------------------ |
