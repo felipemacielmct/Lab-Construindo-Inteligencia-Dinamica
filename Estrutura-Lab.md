@@ -105,18 +105,6 @@ Adicione como fonte de conhecimento:
 
 ***
 
-### ✅ Teste do Agente
-
-**Prompt:**
-
-    Como posso encontrar o número de série no meu dispositivo Surface?
-
-✔️ Verifique se o agente responde trazendo:
-
-*   Modelos de laptops
-*   Instruções específicas do dispositivo
-
-***
 
 ### ✅ Teste do Agente (Múltiplas Fontes)
 
