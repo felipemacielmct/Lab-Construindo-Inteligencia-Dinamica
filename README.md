@@ -308,5 +308,3 @@ ative:
 # 🏁 Fim do Lab
 
 ***
-
-Se quiser, eu posso te gerar também uma versão com **badges + arquitetura do fluxo em Mermaid** pra deixar o README mais "client-ready" para demo.
