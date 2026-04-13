@@ -184,7 +184,6 @@ Concatenate(
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/024418ec-308d-4a3c-a269-5585f05de23a" />
 
-<img width="675" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a055152-9beb-4ab4-95cf-367662373a62" />
 
 <img width="672" height="1075" alt="image" src="https://github.com/user-attachments/assets/22d6407e-500f-4875-abc1-2b422daba26e" />
 
