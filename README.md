@@ -162,8 +162,6 @@ Configure:
 *   Site: **Contoso IT Helpdesk**
 *   Lista: **Dispositivos**
 
-<img width="675" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a055152-9beb-4ab4-95cf-367662373a62" />
-
 
 ***
 
@@ -179,12 +177,14 @@ Concatenate(
 )
 ```
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/024418ec-308d-4a3c-a269-5585f05de23a" />
-
 
 *   Limit Columns by View → **All Items**
 *   Output → **VarDispositivos**
 *   Defina como variável **Global**
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/024418ec-308d-4a3c-a269-5585f05de23a" />
+
+<img width="675" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a055152-9beb-4ab4-95cf-367662373a62" />
 
 <img width="672" height="1075" alt="image" src="https://github.com/user-attachments/assets/22d6407e-500f-4875-abc1-2b422daba26e" />
 
@@ -257,7 +257,7 @@ Referencie:
 
 Edite o Card e substitua todo o JSON pelo seguinte:
 
-<a link="https://github.com/felipemacielmct/Lab-Construindo-Inteligencia-Dinamica/blob/main/adaptivecard.json">Adaptive Card Simple lab</a>
+[Adaptive Card Simple lab](https://github.com/felipemacielmct/Lab-Construindo-Inteligencia-Dinamica/blob/main/adaptivecard.json)
 
 <img width="1280" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4f03219-634f-4dae-a84c-87b9f0da3499" />
 
