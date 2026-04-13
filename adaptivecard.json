@@ -1,0 +1,102 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "backgroundImage": {
+    "url": "https://adaptivecards.io/content/backgroundImage.png",
+    "verticalAlignment": "Center"
+  },
+  "body": [
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "bleed": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Device selection",
+          "weight": "Bolder",
+          "size": "Large",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "spacing": "None",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Por favor, selecione qual dispositivo você gostaria de solicitar:",
+          "wrap": true,
+          "size": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "None",
+      "items": [
+        {
+          "type": "Input.ChoiceSet",
+          "id": "deviceSelectionId",
+          "style": "expanded",
+          "choices": [
+            {
+              "$data": "${Global.VarDispositivos.value}",
+              "title": "${if(Title, Title, 'NA')}",
+              "value": "${if(ID, ID, 'NA')}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "None",
+      "style": "emphasis",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Informações Adicionais",
+          "wrap": true
+        },
+        {
+          "type": "Input.Text",
+          "id": "commentsId",
+          "placeholder": "Por favor, forneça quaisquer requisitos específicos ou comentários",
+          "isMultiline": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "FactSet",
+          "spacing": "Small",
+          "facts": [
+            {
+              "title": "Tipo de solicitação:",
+              "value": "Novo Dispositivo"
+            },
+            {
+              "title": "Prazo de resposta:",
+              "value": "3-5 Dias Úteis"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Enviar Solicitação",
+      "id": "deviceSubmittedId"
+    }
+  ]
+}
