@@ -1,0 +1,134 @@
+***
+
+# ⚙️ Lab Setup — HelpDesk Agent AI
+
+## 📋 Pré-requisitos
+
+***
+
+### 🗂️ Criar SharePoint Site
+
+Crie um novo SharePoint Site com as seguintes configurações:
+
+| Propriedade     | Valor                |
+| --------------- | -------------------- |
+| **Nome**        | Contoso IT Help Desk |
+| **Escopo**      | Team Scope           |
+| **Privacidade** | Private              |
+
+***
+
+## 🧱 Criar Solution (Power Platform)
+
+No ambiente do **Copilot Studio**, crie uma nova Solution:
+
+| Propriedade      | Valor                             |
+| ---------------- | --------------------------------- |
+| **Display Name** | Contoso Solutions IT              |
+| **Name**         | ContosoSolutionsIT                |
+| **Publisher**    | CDS Default Publisher (Cr894ce)   |
+| **Description**  | Copilot Studio Learning Champions |
+
+> 💡 As Solutions funcionam como pacotes para gerenciamento de ciclo de vida (ALM) dos seus agentes e componentes. [\[Copilot St...ons \[ITAU\] \| OneNote\]](https://microsoft-my.sharepoint-df.com/personal/felipemaciel_microsoft_com/_layouts/15/Doc.aspx?action=edit&mobileredirect=true&wdorigin=Sharepoint&DefaultItemOpen=1&sourcedoc={c0186268-b588-4c1a-a45b-f9cd2380d8fd}&wd=target(/Itau.one/)&wdpartid={7c85da56-9b09-4f4a-8149-1689e87a8858}{1}&wdsectionfileid={68fe3b18-c879-400f-8e7e-3b15377f3eaa}&EntityRepresentationId=596e110d-12e8-48bb-a244-fd35e2055e94)
+
+***
+
+## 🤖 Criar Agente
+
+Crie um novo agente utilizando:
+
+    Advanced Mode
+
+| Propriedade      | Valor                                                              |
+| ---------------- | ------------------------------------------------------------------ |
+| **Name**         | HelpDesk Agent AI                                                  |
+| **Instructions** | Utilizar conteúdo do bloco de notas "Instrução do agente Helpdesk" |
+
+***
+
+# 📚 Configuração de Knowledge
+
+***
+
+## 1️⃣ Public Websites
+
+Adicione as seguintes fontes de conhecimento:
+
+*   [Microsoft Support](https://support.microsoft.com/)
+*   [Microsoft Troubleshoot Docs](https://learn.microsoft.com/pt-br/troubleshoot/)
+
+| Configuração | Valor   |
+| ------------ | ------- |
+| Web Search   | Disable |
+
+📌 Durante o teste, utilize o **Activity** para apresentar o raciocínio do agente.
+
+***
+
+### ✅ Teste do Agente
+
+**Prompt:**
+
+    Como posso verificar o status da garantia do meu Surface?
+
+***
+
+## 2️⃣ SharePoint Knowledge Source
+
+Adicione como fonte:
+
+*   Contoso IT Helpdesk SharePoint Site: Site do sharepoint com template padrao do helpdesk
+
+| Configuração | Valor   |
+| ------------ | ------- |
+| Web Search   | Disable |
+
+📌 Utilize o **Activity Panel** para demonstrar como o agente utiliza a fonte organizacional.
+
+***
+
+## 3️⃣ Upload de Arquivos
+
+Faça upload do documento:
+
+    Contoso Guest Wi-Fi Connection Guide
+
+Adicione como fonte de conhecimento:
+
+| Configuração | Valor               |
+| ------------ | ------------------- |
+| Fonte        | Contoso IT Helpdesk |
+| Web Search   | Disable             |
+
+***
+
+### ✅ Teste do Agente
+
+**Prompt:**
+
+    Como posso encontrar o número de série no meu dispositivo Surface?
+
+✔️ Verifique se o agente responde trazendo:
+
+*   Modelos de laptops
+*   Instruções específicas do dispositivo
+
+***
+
+### ✅ Teste do Agente (Múltiplas Fontes)
+
+**Prompt:**
+
+    Como posso acessar a VPN Contoso da nossa empresa pelo meu dispositivo?
+
+✔️ Validar:
+
+*   Uso da fonte do SharePoint
+*   Uso do documento carregado
+*   Resposta consolidada pelo agente
+
+***
+
+# 🏁 Fim do Setup
+
+***
